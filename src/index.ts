@@ -4,7 +4,7 @@
  * A design editor with one-click image enhancement prominently featured.
  * Select an image to see the "Enhance" option in the canvas menu.
  *
- * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear/
+ * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear-e0fa1c/
  */
 
 import CreativeEditorSDK from '@cesdk/cesdk-js';
