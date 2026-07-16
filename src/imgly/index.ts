@@ -5,7 +5,7 @@
  * Clear editor. Import and call `initPerfectlyClearEditor()` to configure a
  * CE.SDK instance with one-click image enhancement prominently featured.
  *
- * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear/
+ * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear-e0fa1c/
  */
 
 import type CreativeEditorSDK from '@cesdk/cesdk-js';
