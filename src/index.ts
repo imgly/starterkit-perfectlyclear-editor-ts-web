@@ -46,7 +46,7 @@ CreativeEditorSDK.create('#cesdk_container', config)
 
     // Load the Perfectly Clear demo template — an archive bundling the
     // scene plus its fonts and images, ready to enhance.
-    await cesdk.loadFromArchiveURL(
+    await cesdk.load(
       resolveAssetPath('/assets/enhance-image.archive')
     );
   })
