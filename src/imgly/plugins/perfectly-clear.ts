@@ -21,7 +21,7 @@
  * await setupPerfectlyClearPlugin(cesdk, { apiKey: 'YOUR_PFC_API_KEY' });
  * ```
  *
- * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear-e0fa1c/
+ * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear/
  */
 
 import type CreativeEditorSDK from '@cesdk/cesdk-js';

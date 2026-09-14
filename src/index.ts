@@ -4,14 +4,13 @@
  * A design editor with one-click image enhancement prominently featured.
  * Select an image to see the "Enhance" option in the canvas menu.
  *
- * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear-e0fa1c/
+ * @see https://img.ly/docs/cesdk/js/plugins/perfectly-clear/
  */
 
 import CreativeEditorSDK from '@cesdk/cesdk-js';
 
 import { initPerfectlyClearEditor } from './imgly';
 import { resolveAssetPath } from './imgly/resolveAssetPath';
-
 
 // ============================================================================
 // Configuration
@@ -47,7 +46,7 @@ CreativeEditorSDK.create('#cesdk_container', config)
 
     // Load the Perfectly Clear demo template — an archive bundling the
     // scene plus its fonts and images, ready to enhance.
-    await cesdk.load(
+    await cesdk.loadFromArchiveURL(
       resolveAssetPath('/assets/enhance-image.archive')
     );
   })

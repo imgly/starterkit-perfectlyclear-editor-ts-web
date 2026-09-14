@@ -3,7 +3,7 @@
 One-click image enhancement powered by Perfectly Clear (eyeQ). Built with [CE.SDK](https://img.ly/creative-sdk) by [IMG.LY](https://img.ly), runs entirely in the browser via WebAssembly — no server round-trip, no model uploads.
 
 <p>
-  <a href="https://img.ly/docs/cesdk/js/plugins/perfectly-clear-e0fa1c/">Documentation</a>
+  <a href="https://img.ly/docs/cesdk/js/plugins/perfectly-clear/">Documentation</a>
 </p>
 
 ![Perfectly Clear Editor starter kit showing a graphic design interface](./hero.webp)
@@ -125,7 +125,7 @@ src/
 
 ## Prerequisites
 
-- **Node.js v22+** with npm — [Download](https://nodejs.org/)
+- **Node.js v20+** with npm — [Download](https://nodejs.org/)
 - **Supported browsers** — Chrome 114+, Edge 114+, Firefox 115+, Safari 15.6+
 - **Perfectly Clear (eyeQ) API key** authorized for your origin (contact Perfectly Clear / IMG.LY support)
 
@@ -141,7 +141,7 @@ src/
 
 ## Documentation
 
-For complete integration guides and API reference, visit the [Perfectly Clear Plugin Documentation](https://img.ly/docs/cesdk/js/plugins/perfectly-clear-e0fa1c/).
+For complete integration guides and API reference, visit the [Perfectly Clear Plugin Documentation](https://img.ly/docs/cesdk/js/plugins/perfectly-clear/).
 
 ## License
 
