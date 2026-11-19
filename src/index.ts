@@ -35,7 +35,7 @@ CreativeEditorSDK.create('#cesdk_container', config)
         // should source this however their host environment prefers and
         // pass it through here — `setupPerfectlyClearPlugin` itself
         // takes no env var.
-        apiKey: (undefined as string | undefined)
+        apiKey: import.meta.env.VITE_PFC_API_KEY
       }
     });
 
